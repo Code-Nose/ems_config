@@ -35,3 +35,11 @@ management:
      web:
        exposure:
          include: "*"   #暴露所有web端点展示页面 http://localhost:8989/actuator/gateway/routes
+#连接mq主机
+spring.rabbitmq.host: 169.254.50.192
+#连接mq端口
+spring.rabbitmq.port: 5672
+#连接mq用户名
+spring.rabbitmq.username: guest
+#连接mq密码
+spring.rabbitmq.password: guest
